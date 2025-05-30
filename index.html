@@ -18,10 +18,21 @@
       <form id="currency-form">
         <div class="input-group">
           <label for="">Valor</label>
-          <input type="number" id="amoount" placeholder="Insira o valor " />
+          <input type="number" id="amount" placeholder="Insira o valor" />
         </div>
 
         <!-- Seleção de moeda -->
+
+        <div class="input-group">
+          <label for="">De</label>
+          <select name="" id="daMoeda">
+            <option value="USD">Dolar(USD)</option>
+            <option value="EUR">Euro(EUR)</option>
+            <option value="BRL">Real(BRL)</option>
+          </select>
+        </div>
+
+        <!-- Conversão -->
 
         <div class="input-group">
           <label for="">Para</label>
@@ -32,15 +43,13 @@
           </select>
         </div>
 
-        <div class="input-group"></div>
-
         <!-- Botões -->
 
         <button type="submit">Converter</button>
         <button type="reset">Limpar</button>
       </form>
 
-      <div id="convercao"></div>
+      <div id="conversao"></div>
     </main>
 
     <script src="./JavaScript/main.js"></script>
